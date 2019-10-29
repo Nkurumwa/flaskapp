@@ -7,10 +7,22 @@ app.config['SECRET_KEY'] = '2b471c51fd96d28fa3ec'
 posts = [
     {
         'author':'Ishmael Nkurumwa',
-        'title': 'First post content',
-        'content': 'First post content',
+        'title': 'Freedom',
+        'content': 'Freedom is the best thing you can ever have in your life!',
         'date_posted': 'April 20, 2018'
     },
+    {
+        'author':'Randy Nish',
+        'title': 'Success',
+        'content': 'If you want to go faster, walk alone but if you want to go far walk with others.',
+        'date_posted': 'April 10, 2019'
+    },
+    {
+        'author':'Nelson Mandela',
+        'title': 'Education',
+        'content': 'Education is the most powerful weapon you can use to change the world!',
+        'date_posted': 'June 16, 2009'
+    }
 ]
 
 @app.route("/")
